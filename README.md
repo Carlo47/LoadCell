@@ -20,7 +20,7 @@ output value v of the HX711:
   weight = m * v + b
 ```
 We therefore only need to determine the two unknowns m and b. We do this by 
-determining v0 with 0 load and vref with a reference weight wref., for example 
+determining v0 with 0 load and vref with a reference weight wref, for example 
 with the maximum permissible load.
 
 Thus we obtain the two equations: 
