@@ -1,7 +1,9 @@
 # LoadCell
 Shows the use of a loadcell in combination with the HX711 24-bit ADC
-### Wiring
 
+![LoadCell](loadcell.jpg)
+
+## Wiring
 ```
                                +------------------+ 
  Wiring                 red    o E+   HX711       |
@@ -113,6 +115,7 @@ for reading a raw value from the HX711 now looks like this:
 ```
 ## User Interface (CLI) and Operation
 The user interface is a simple command line interface. The menu items are self-explanatory. 
+
 ![LoadCellMenu](loadCellMenu.jpg)
 
 First we enter the reference weight in grams, then we set the scale to zero 
